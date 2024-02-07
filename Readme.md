@@ -1,7 +1,7 @@
 # Sorting algorithms
 
 Repository with sorting algorithms showcase. Each of them has *simple version* & *vizual with video*. Each sorting algorithm also has log.txt file that shows time taken for it to sort the list and etc.
-### Sorting time (Simple.py)
+### Sorting time (Simple.py): number of elements in the list
 Algorithm |100| 1000| 10 000 | 100 000 | 1 000 000 | 10 000 000 | 25 000 000 
 --- | --- | --- | --- |--- |--- |--- |---
 Bubblesort | 0.000713s | 0.0629s | 6.4593s | - | - | - | - |
