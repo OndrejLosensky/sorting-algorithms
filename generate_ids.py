@@ -10,7 +10,7 @@ def generate_ids_file(n, file_name):
             f.write(generate_random_id() + '\n')
 
 
-n = 10000  # Number of IDs to generate
-file_name = "input.txt" 
+n = 1000000  # Number of IDs to generate
+file_name = f"input_{n}.txt" 
 generate_ids_file(n, file_name)
 print(f"{n} random IDs generated and saved to '{file_name}'.")

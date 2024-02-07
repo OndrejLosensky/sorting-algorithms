@@ -57,6 +57,6 @@ def sort_ids_with_merge_sort(input_file, output_file):
     log_message = f'Time it took: {end_time}s | Input: {input_file} | Number of IDs: {len(ids)}'
     log_to_file(log_message, log_file)
 
-input_file = "mergesort/input.txt" 
-output_file = "mergesort/sorted_input.txt" 
+input_file = "input_1000000.txt" 
+output_file = "sorted_input.txt" 
 sort_ids_with_merge_sort(input_file, output_file)

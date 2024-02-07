@@ -34,7 +34,7 @@ def sort_ids(input_file, output_file):
     log_to_file(log_message, log_file)
 
 # Usage:
-input_file = "bubblesort/input.txt"
+input_file = "input_10000.txt"
 output_file = "bubblesort/sorted_input.txt"
 sort_ids(input_file, output_file)
 print("Done!")

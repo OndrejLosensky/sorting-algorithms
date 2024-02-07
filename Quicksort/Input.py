@@ -36,6 +36,6 @@ def sort_ids_with_quick_sort(input_file, output_file):
     log_message = f'Time it took: {end_time}s | Input: {input_file} | Number of IDs: {len(sorted_ids)}'
     log_to_file(log_message, log_file)
 
-input_file = "quicksort/input.txt" 
-output_file = "quicksort/sorted_input.txt" 
+input_file = "input_1000000.txt" 
+output_file = "sorted_input.txt" 
 sort_ids_with_quick_sort(input_file, output_file)

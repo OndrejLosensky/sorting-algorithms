@@ -56,7 +56,7 @@ def sort_ids_with_heap_sort(input_file, output_file):
     log_to_file(log_message, log_file)
 
 
-input_file = "heapsort/input.txt" 
-output_file = "heapsort/sorted_input.txt" 
+input_file = "input_1000000.txt" 
+output_file = "sorted_input.txt" 
 sort_ids_with_heap_sort(input_file, output_file)
 

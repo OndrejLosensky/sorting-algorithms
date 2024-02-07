@@ -1,6 +1,41 @@
-Time it took: 11.8778s | Input: bubblesort/input.txt | Number of IDs: 10000
-Time it took: 0.3091s | Input: heapsort/input.txt | Number of IDs: 10000
-Time it took: 5.3999s | Input: insertsort/input.txt | Number of IDs: 10000
-Time it took: 0.1132s | Input: mergesort/input.txt | Number of IDs: 10000
-Time it took: 0.0883s | Input: quicksort/input.txt | Number of IDs: 10000
-Time it took: 7.1731s | Input: selectsort/input.txt | Number of IDs: 10000
+BUBBLESORT
+Time it took: 0.001s | Input: input_100.txt | Number of IDs: 100
+Time it took: 0.108s | Input: input_1000.txt | Number of IDs: 1000
+Time it took: 11.2463s | Input: input_10000.txt | Number of IDs: 10000
+Time it took: - | Input: input_100000.txt | Number of IDs: 100000
+Time it took: - | Input: input_1000000.txt | Number of IDs: 1000000
+----------------------------------------------------------------------
+HEAPSORT
+Time it took: 0.0022s | Input: input_100.txt | Number of IDs: 100
+Time it took: 0.0208s | Input: input_1000.txt | Number of IDs: 1000
+Time it took: 0.2774s | Input: input_10000.txt | Number of IDs: 10000
+Time it took: 3.9609s | Input: input_100000.txt | Number of IDs: 100000
+Time it took: 44.7057s | Input: input_1000000.txt | Number of IDs: 1000000
+--------------------------------------------------------------------------
+INSERTSORT 
+Time it took: 0.002s | Input: input_100.txt | Number of IDs: 100
+Time it took: 0.0561s | Input: input_1000.txt | Number of IDs: 1000
+Time it took: 5.6124s | Input: input_10000.txt | Number of IDs: 10000
+Time it took: - | Input: input_100000.txt | Number of IDs: 100000
+Time it took: - | Input: input_1000000.txt | Number of IDs: 1000000
+---------------------------------------------------------------------------
+MERGESORT
+Time it took: 0.0027s | Input: input_100.txt | Number of IDs: 100
+Time it took: 0.0101s | Input: input_1000.txt | Number of IDs: 1000
+Time it took: 0.1113s | Input: input_10000.txt | Number of IDs: 10000
+Time it took: 1.3748s | Input: input_100000.txt | Number of IDs: 100000
+Time it took: 14.8943s | Input: input_1000000.txt | Number of IDs: 1000000
+----------------------------------------------------------------------------
+QUICKSORT
+Time it took: 0.0009s | Input: input_100.txt | Number of IDs: 100
+Time it took: 0.0076s | Input: input_1000.txt | Number of IDs: 1000
+Time it took: 0.0892s | Input: input_10000.txt | Number of IDs: 10000
+Time it took: 1.0233s | Input: input_100000.txt | Number of IDs: 100000
+Time it took: 12.6169s | Input: input_1000000.txt | Number of IDs: 1000000
+-----------------------------------------------------------------------------
+SELECTSORT
+Time it took: 0.0011s | Input: input_100.txt | Number of IDs: 100
+Time it took: 0.0948s | Input: input_1000.txt | Number of IDs: 1000
+Time it took: 7.3281s | Input: input_10000.txt | Number of IDs: 10000
+Time it took: - | Input: input_100000.txt | Number of IDs: 100000
+Time it took: - | Input: input_1000000.txt | Number of IDs: 1000000

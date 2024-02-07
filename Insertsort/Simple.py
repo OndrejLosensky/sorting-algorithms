@@ -34,7 +34,7 @@ def main():
     print("Sorted array:", my_list)
     print("Time it took: ", end_time, "s" )
 
-    log_file = "insertsort/log.txt"
+    log_file = "logs/insertsort.txt"
     log_message = f'Time it took: {end_time}s | Without visualization | Number of elements in the list {len(my_list)}'
     log_to_file(log_message, log_file)
 

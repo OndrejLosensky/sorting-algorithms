@@ -44,7 +44,7 @@ def log_to_file(log_message, log_file):
 
 # Example usage:
 start_time = time.time()
-my_list = list(range(0, 10000))
+my_list = list(range(0, 100000))
 random.shuffle(my_list)
 
 heap_sort(my_list)
@@ -52,6 +52,6 @@ end_time = round(time.time() - start_time, 4)
 print("Sorted array:", my_list)
 print("Time it took: ", end_time, "s" )
 
-log_file = "bubblesort/log.txt"
+log_file = "logs/heapsort.txt"
 log_message = f'Time it took: {end_time}s | Without visualization | number of elements in the list: {len(my_list)}'
 log_to_file(log_message, log_file)
