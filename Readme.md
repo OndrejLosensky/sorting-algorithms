@@ -22,6 +22,7 @@ Mergesort | - | - | - | - | - |
 Quicksort | - | - | - | - | - | 
 Heapsort | - | - | -| - | - | 
 
+*input.txt with ID's is generated randomly just for the algorithm to have something to work with*
 
 ## How to install
 *create new virtual envirorment for packages*
