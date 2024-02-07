@@ -6,7 +6,7 @@ Quicksort is efficient for sorting large arrays or lists due to its average time
 
 ### Time taken in test:
 List of 1000 numbers placed randomly: **0.0051s**  
-List of 10 000 numbers placed randomly: **0.0645s**
+List of 10 000 numbers placed randomly: **0.0645s**  
 List of 100 000 numbers placed randomly: **0.6121s**
 
 
