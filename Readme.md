@@ -41,11 +41,11 @@ source venv/bin/activate
 pip install matplotlib ipython
 ```
 ###  All available algorithms:
-- Bubblesort
-- Insersort
-- Selectsort
-- Mergesort
-- Quicksort
-- Heapsort
-- Radixsort
+- [Bubblesort](https://github.com/OndrejLosensky/sorting_algorithms/blob/main/Bubblesort/Readme.md)
+- [Insersort](https://github.com/OndrejLosensky/sorting_algorithms/blob/main/Insertsort/Readme.md)
+- [Selectsort](https://github.com/OndrejLosensky/sorting_algorithms/blob/main/Selectsort/Readme.md)
+- [Mergesort](https://github.com/OndrejLosensky/sorting_algorithms/blob/main/Mergesort/Readme.md)
+- [Quicksort](https://github.com/OndrejLosensky/sorting_algorithms/blob/main/Quicksort/Readme.md)
+- [Heapsort](https://github.com/OndrejLosensky/sorting_algorithms/blob/main/Heapsort/Readme.md)
+- [Radixsort](https://github.com/OndrejLosensky/sorting_algorithms/blob/main/Radixsort/Readme.md)
 
