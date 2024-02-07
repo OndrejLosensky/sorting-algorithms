@@ -1,15 +1,16 @@
 import random
+import string
 
-def generate_random_lines(num_lines):
-    lines = []
-    for _ in range(num_lines):
-        line = ''.join(str(random.randint(0, 9)) for _ in range(8))
-        lines.append(line)
-    return lines
+def generate_random_id(length=10):
+    return ''.join(random.choices(string.digits, k=length))
 
-num_lines = 2500
-random_lines = generate_random_lines(num_lines)
+def generate_ids_file(n, file_name):
+    with open(file_name, 'w') as f:
+        for _ in range(n):
+            f.write(generate_random_id() + '\n')
 
-# Print the generated random lines
-for line in random_lines:
-    print(line)
+
+n = 10000  # Number of IDs to generate
+file_name = "input.txt" 
+generate_ids_file(n, file_name)
+print(f"{n} random IDs generated and saved to '{file_name}'.")
