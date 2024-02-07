@@ -6,7 +6,10 @@ Selection sort is efficient for sorting small arrays or lists where simplicity i
 
 ### Time taken (Simple.py):
 List of 1000 numbers placed randomly: **0.0459s**   
-List of 10 000 numbers placed randomly: **0.0788s**     
+List of 10 000 numbers placed randomly: **0.0788s** 
+
+### Time taken with .txt file (Input.py):
+Text file with 10 000 10-digit long ID's: **7.1731s**
 
 ### Demonstration video:
 https://github.com/OndrejLosensky/sorting_algorithms/assets/127244546/dd0f2a16-4966-4580-9f3e-ab672de7b5a1
