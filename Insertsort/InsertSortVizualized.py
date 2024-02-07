@@ -39,7 +39,8 @@ def log_to_file(log_message, log_file):
         f.write(log_entry + "\n")
         f.write(separator + "\n")
 
-    print("Uložil jsem data do log.txt !!")
+    print(f'I have saved data into {log_file}')
+
 
 # Usage:    
 start_time = time.time()
@@ -48,9 +49,10 @@ random.shuffle(my_list)
 
 insertion_sort_animation(my_list)
 end_time = round(time.time() - start_time, 2)
-print("Hotovo!")
-print("Doba trvání: ", end_time, "s")
+
+print("Sorted array:", my_list)
+print("Time it took: ", end_time, "s" )
 
 log_file = "insertsort/log.txt"
-log_message = f'Doba trvání: {end_time}s | S vizualizací | Počet čísel v listu: {len(my_list)}'
+log_message = f'Time it took: {end_time}s | Without visualization | Number of elements in the list {len(my_list)}'
 log_to_file(log_message, log_file)
