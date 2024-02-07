@@ -43,7 +43,8 @@ def log_to_file(log_message, log_file):
         f.write(log_entry + "\n")
         f.write(separator + "\n")
 
-    print("Uložil data do log.txt !!")
+    print(f'I have saved the data into {log_file}')
+
 
 start_time = time.time()
 
@@ -53,9 +54,9 @@ random.shuffle(my_list)
 
 selection_sort_animation(my_list)
 end_time = round(time.time() - start_time, 2)
-print("Hotovo!")
-print("Doba trvání: ", end_time, "s")
+print("Sorted array:", my_list)
+print("Time it took: ", end_time, "s" )
 
-log_file = "selectsort/log.txt"
-log_message = f'Doba trvání: {end_time}s | S vizualizací'
+log_file = "bubblesort/log.txt"
+log_message = f'Time it took: {end_time}s | Without visualization | number of elements in the list: {len(my_list)}'
 log_to_file(log_message, log_file)

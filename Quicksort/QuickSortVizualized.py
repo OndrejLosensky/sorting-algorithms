@@ -52,7 +52,6 @@ def quick_sort_animation(arr):
     display(HTML(ani.to_jshtml()))
 
 start_time = time.time()
-# Usage:
 my_list = list(range(1, 101))
 random.shuffle(my_list)
 
