@@ -1,5 +1,6 @@
 Time it took: 11.8778s | Input: bubblesort/input.txt | Number of IDs: 10000
-Time it took: 0.3091s | Input: heapsort/input.txt | Number of IDs: 10000Time it took: 5.3999s | Input: insertsort/input.txt | Number of IDs: 10000
+Time it took: 0.3091s | Input: heapsort/input.txt | Number of IDs: 10000
+Time it took: 5.3999s | Input: insertsort/input.txt | Number of IDs: 10000
 Time it took: 0.1132s | Input: mergesort/input.txt | Number of IDs: 10000
 Time it took: 0.0883s | Input: quicksort/input.txt | Number of IDs: 10000
 Time it took: 7.1731s | Input: selectsort/input.txt | Number of IDs: 10000
