@@ -4,7 +4,7 @@ Merge sort is a divide-and-conquer sorting algorithm that divides the input arra
 ### Efficiency
 Merge sort is efficient for sorting large arrays or lists because it has a stable time complexity of **O(nlog n)** for both average and worst-case scenarios. It is also efficient for sorting linked lists due to its sequential access pattern. Additionally, merge sort is a stable sorting algorithm, meaning it preserves the relative order of equal elements in the input array, making it suitable for applications where maintaining the original order is important.
 
-### Time taken in test:
+### Time taken (Simple.py):
 List of 1000 numbers placed randomly: **0.008s**  
 List of 10 000 numbers placed randomly: **0.0811s**  
 List of 100 000 numbers placed randomly: **0.9293s**  

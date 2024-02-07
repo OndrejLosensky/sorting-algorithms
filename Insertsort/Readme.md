@@ -5,7 +5,7 @@ Insertion sort is a simple sorting algorithm that builds the final sorted array 
 Insertion sort is efficient for sorting small arrays or lists, particularly when the data is nearly sorted or the array is already partially sorted. It also performs well in scenarios where the overhead of more complex algorithms might outweigh the benefits, such as sorting small datasets or lists with a small number of elements.
 
 
-### Time taken in test:
+### Time taken (Simple.py):
 List of 1000 numbers placed randomly: **0.0305s**  
 List of 10 000 numbers placed randomly: **3.3144s**  
 
