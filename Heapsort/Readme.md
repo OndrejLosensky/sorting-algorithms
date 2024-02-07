@@ -4,3 +4,7 @@ Heap sort is a sorting algorithm that uses a binary heap data structure. It work
 ### Efficiency
 Heap sort is efficient for sorting large lists or arrays because it has a time complexity of **O(n log n)** for both average and worst-case scenarios. Additionally, it doesn't require additional memory space beyond the input array, making it space-efficient compared to some other sorting algorithms.
 
+### Time taken in test:
+List of 1000 numbers placed randomly: **0.0129s**
+List of 10 000 numbers placed randomly: **0.1809s**
+List of 100 000 numbers placed randomly: **2.2778s**
