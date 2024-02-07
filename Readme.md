@@ -4,16 +4,16 @@ Repository with sorting algorithms showcase. Each of them has *simple version* &
 
 ## How to install
 create new virtual envirorment for packages
-```python
-    python3 -m venv myEnv
+```
+python3 -m venv myEnv
 ```
 
 activate it by typing this into terminal:
 ```
-    source venv/bin/activate   
+source venv/bin/activate   
 ```
 
 install those modules for it to work:
 ```
-    pip install matplotlib ipython
+pip install matplotlib ipython
 ```
