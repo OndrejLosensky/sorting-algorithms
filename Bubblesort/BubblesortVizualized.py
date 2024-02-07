@@ -26,11 +26,10 @@ def bubble_sort_animation(arr):
     display(HTML(ani.to_jshtml()))
 
 start_time = time.time()
-# Usage:
 my_list = list(range(1, 101))
 random.shuffle(my_list)
 
 bubble_sort_animation(my_list)
 end_time = round(time.time() - start_time, 2)
-print("Hotovo!")
-print("Doba trvání: ", end_time, "s")
+print("Done!")
+print("Time it took: ", end_time, "s")
