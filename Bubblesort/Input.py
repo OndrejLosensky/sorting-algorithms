@@ -29,7 +29,7 @@ def sort_ids(input_file, output_file):
             f.write(id + '\n')
 
     # Log sorting information
-    log_file = "bubblesort/log.txt"
+    log_file = "input_log.txt"
     log_message = f'Time it took: {end_time}s | Input: {input_file} | Number of IDs: {len(ids)}'
     log_to_file(log_message, log_file)
 

@@ -32,5 +32,5 @@ print("Sorted array:", my_list)
 print("Time it took: ", end_time, "s" )
 
 log_file = "bubblesort/log.txt"
-log_message = f'Time it took: {end_time}s | Without visualization | number of elements in the list: {len(my_list)}'
+log_message = f'Time it took: {end_time}s | Simple | number of elements in the list: {len(my_list)}'
 log_to_file(log_message, log_file)

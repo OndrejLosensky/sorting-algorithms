@@ -1,0 +1,2 @@
+Time it took: 11.8778s | Input: bubblesort/input.txt | Number of IDs: 10000
+Time it took: 0.3091s | Input: heapsort/input.txt | Number of IDs: 10000

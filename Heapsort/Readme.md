@@ -8,3 +8,6 @@ Heap sort is efficient for sorting large lists or arrays because it has a time c
 List of 1000 numbers placed randomly: **0.0129s**  
 List of 10 000 numbers placed randomly: **0.1809s**  
 List of 100 000 numbers placed randomly: **2.2778s**
+
+### Time taken with .txt file (Input.py):
+Text file with 10 000 10-digit long ID's: **0.3091s**
