@@ -9,6 +9,9 @@ Insertion sort is efficient for sorting small arrays or lists, particularly when
 List of 1000 numbers placed randomly: **0.0305s**  
 List of 10 000 numbers placed randomly: **3.3144s**  
 
+### Time taken with .txt file (Input.py):
+Text file with 10 000 10-digit long ID's: **5.3999s**
+
 ### Demonstration video:
 https://github.com/OndrejLosensky/sorting_algorithms/assets/127244546/e6c55636-90eb-4067-a538-c371e9e26c1c
 
