@@ -9,6 +9,9 @@ List of 1000 numbers placed randomly: **0.0051s**
 List of 10 000 numbers placed randomly: **0.0645s**  
 List of 100 000 numbers placed randomly: **0.6121s**
 
+### Time taken with .txt file (Input.py):
+Text file with 10 000 10-digit long ID's: **0.0883s**
+
 
 
 
